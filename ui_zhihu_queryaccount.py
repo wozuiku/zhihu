@@ -1,0 +1,92 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'zhihu_queryaccount.ui'
+#
+# Created by: PyQt5 UI code generator 5.6
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_Form_QueryAccount(object):
+    def setupUi(self, Form_QueryAccount):
+        Form_QueryAccount.setObjectName("Form_QueryAccount")
+        Form_QueryAccount.resize(373, 304)
+        self.label = QtWidgets.QLabel(Form_QueryAccount)
+        self.label.setGeometry(QtCore.QRect(70, 20, 31, 21))
+        self.label.setObjectName("label")
+        self.label_2 = QtWidgets.QLabel(Form_QueryAccount)
+        self.label_2.setGeometry(QtCore.QRect(70, 60, 31, 21))
+        self.label_2.setObjectName("label_2")
+        self.label_3 = QtWidgets.QLabel(Form_QueryAccount)
+        self.label_3.setGeometry(QtCore.QRect(70, 100, 31, 21))
+        self.label_3.setObjectName("label_3")
+        self.label_4 = QtWidgets.QLabel(Form_QueryAccount)
+        self.label_4.setGeometry(QtCore.QRect(33, 140, 61, 21))
+        self.label_4.setObjectName("label_4")
+        self.label_5 = QtWidgets.QLabel(Form_QueryAccount)
+        self.label_5.setGeometry(QtCore.QRect(70, 180, 31, 21))
+        self.label_5.setObjectName("label_5")
+        self.label_6 = QtWidgets.QLabel(Form_QueryAccount)
+        self.label_6.setGeometry(QtCore.QRect(70, 220, 31, 21))
+        self.label_6.setObjectName("label_6")
+        self.comboBox_queryType = QtWidgets.QComboBox(Form_QueryAccount)
+        self.comboBox_queryType.setGeometry(QtCore.QRect(110, 20, 69, 22))
+        self.comboBox_queryType.setObjectName("comboBox_queryType")
+        self.comboBox_queryType.addItem("")
+        self.comboBox_queryType.setItemText(0, "")
+        self.comboBox_queryType.addItem("")
+        self.comboBox_queryType.addItem("")
+        self.lineEdit_queryAccount = QtWidgets.QLineEdit(Form_QueryAccount)
+        self.lineEdit_queryAccount.setGeometry(QtCore.QRect(110, 60, 113, 20))
+        self.lineEdit_queryAccount.setObjectName("lineEdit_queryAccount")
+        self.lineEdit_queryPassword = QtWidgets.QLineEdit(Form_QueryAccount)
+        self.lineEdit_queryPassword.setGeometry(QtCore.QRect(110, 100, 113, 20))
+        self.lineEdit_queryPassword.setObjectName("lineEdit_queryPassword")
+        self.comboBox_queryAvatar = QtWidgets.QComboBox(Form_QueryAccount)
+        self.comboBox_queryAvatar.setGeometry(QtCore.QRect(110, 140, 69, 22))
+        self.comboBox_queryAvatar.setObjectName("comboBox_queryAvatar")
+        self.comboBox_queryAvatar.addItem("")
+        self.comboBox_queryAvatar.setItemText(0, "")
+        self.comboBox_queryAvatar.addItem("")
+        self.comboBox_queryAvatar.addItem("")
+        self.comboBox_queryStatus = QtWidgets.QComboBox(Form_QueryAccount)
+        self.comboBox_queryStatus.setGeometry(QtCore.QRect(110, 180, 69, 22))
+        self.comboBox_queryStatus.setObjectName("comboBox_queryStatus")
+        self.comboBox_queryStatus.addItem("")
+        self.comboBox_queryStatus.setItemText(0, "")
+        self.comboBox_queryStatus.addItem("")
+        self.comboBox_queryStatus.addItem("")
+        self.comboBox_queryStatus.addItem("")
+        self.lineEdit_queryRemark = QtWidgets.QLineEdit(Form_QueryAccount)
+        self.lineEdit_queryRemark.setGeometry(QtCore.QRect(110, 220, 113, 20))
+        self.lineEdit_queryRemark.setObjectName("lineEdit_queryRemark")
+        self.pushButton_query = QtWidgets.QPushButton(Form_QueryAccount)
+        self.pushButton_query.setGeometry(QtCore.QRect(110, 260, 75, 23))
+        self.pushButton_query.setObjectName("pushButton_query")
+        self.pushButton_clear = QtWidgets.QPushButton(Form_QueryAccount)
+        self.pushButton_clear.setGeometry(QtCore.QRect(210, 260, 75, 23))
+        self.pushButton_clear.setObjectName("pushButton_clear")
+
+        self.retranslateUi(Form_QueryAccount)
+        QtCore.QMetaObject.connectSlotsByName(Form_QueryAccount)
+
+    def retranslateUi(self, Form_QueryAccount):
+        _translate = QtCore.QCoreApplication.translate
+        Form_QueryAccount.setWindowTitle(_translate("Form_QueryAccount", "查询条件"))
+        self.label.setText(_translate("Form_QueryAccount", "类型"))
+        self.label_2.setText(_translate("Form_QueryAccount", "账号"))
+        self.label_3.setText(_translate("Form_QueryAccount", "密码"))
+        self.label_4.setText(_translate("Form_QueryAccount", "是否有头像"))
+        self.label_5.setText(_translate("Form_QueryAccount", "状态"))
+        self.label_6.setText(_translate("Form_QueryAccount", "备注"))
+        self.comboBox_queryType.setItemText(1, _translate("Form_QueryAccount", "手机号"))
+        self.comboBox_queryType.setItemText(2, _translate("Form_QueryAccount", "邮箱"))
+        self.comboBox_queryAvatar.setItemText(1, _translate("Form_QueryAccount", "否"))
+        self.comboBox_queryAvatar.setItemText(2, _translate("Form_QueryAccount", "是"))
+        self.comboBox_queryStatus.setItemText(1, _translate("Form_QueryAccount", "正常"))
+        self.comboBox_queryStatus.setItemText(2, _translate("Form_QueryAccount", "异常"))
+        self.comboBox_queryStatus.setItemText(3, _translate("Form_QueryAccount", "已导出"))
+        self.pushButton_query.setText(_translate("Form_QueryAccount", "查询"))
+        self.pushButton_clear.setText(_translate("Form_QueryAccount", "清空"))
+
